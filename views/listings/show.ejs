@@ -3,7 +3,7 @@
 <!-- maptoken & coordinates access script through ejs use in map.js -->
 <script>
   const mapToken = "<%= process.env.MAP_TOKEN %>";
-  const listing = <%- JSON.stringify(listing) %>;
+  const listing = JSON.parse(`<%- JSON.stringify(listing)%>`);
 </script>
 <!-- Card -->
 <div class="row mt-3">
