@@ -1,7 +1,7 @@
 const Listing = require("../models/listing.js"); //importing listing model
 //mapbox  geocoding
 const mbxGeoCoding = require("@mapbox/mapbox-sdk/services/geocoding"); //service
-const mapToken = process.env.Map_Token; //passed token
+const mapToken = process.env.MAP_TOKEN; //passed token
 const geocodingClient = mbxGeoCoding({ accessToken: mapToken }); //started service
 
 //index
