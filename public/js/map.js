@@ -15,3 +15,5 @@ const marker1 = new mapboxgl.Marker({ color: "red" })
     )
   )
   .addTo(map);
+
+// 1 min
