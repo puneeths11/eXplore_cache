@@ -34,6 +34,10 @@ router
 //Logout
 router.get("/logout", usersController.logout);
 
+router.get("/", (req, res) => {
+  res.redirect("/listings");
+});
+
 /*------------------------------------------
 Exporting
 -------------------------------------------*/
